@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import datetime
 import os
 import tempfile
@@ -91,7 +93,6 @@ fig.savefig(img_fp)
 img_fp.seek(0)
 
 
-# with open(temp_file, "rb") as f:
 Client(
     PUSHOVER_USER_KEY,
     api_token=PUSHOVER_API_KEY,
